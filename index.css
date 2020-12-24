@@ -1,0 +1,77 @@
+#img1 {
+    background: url("./assets/steamCopy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img1:hover {
+   background: #aaaaaaaa;
+}
+#img1:hover > #inner1 {
+    visibility: visible;
+}
+#img2 {
+    background: url("./assets/monster.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img2:hover {
+   background: grey;
+   background: #aaaaaaaa;
+}
+#img2:hover > #inner2 {
+    visibility: visible;
+}
+#img3 {
+    background: url("./assets/amazonCopy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3:hover {
+   background: grey;
+   background: #aaaaaaaa;
+}
+#img3:hover > #inner3 {
+    visibility: visible;
+}
+#inner1, #inner2, #inner3 {
+    font-size: 26px;
+    font-weight: bold;
+    visibility: hidden;
+    text-align: center;
+}
+.image {
+    display: flex;
+    height: 20em;
+    width: 25em;
+    align-items: center;
+    justify-content: center;
+
+}
+#options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#headline {
+    font-size: 36px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    background: black;
+}
+body, html {
+    height: 100%;
+}
+#page {
+    background: url("./assets/wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
